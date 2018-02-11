@@ -1,16 +1,12 @@
 <template>
   <div class="two-component">
-    <p>{{msg}}</p>
+    <p>{{entity.title}}&nbsp;&nbsp;&nbsp;{{msg}}</p>
   </div>
 </template>
 <script>
 export default {
   name: 'two-component',
-  data () {
-    return {
-      msg: '这是第二个组件！'
-    }
-  }
+  props: ['entity', 'msg']
 }
 </script>
 <style>

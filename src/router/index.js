@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/first',
-      name: 'first-component',
+      name: 'firstComponent',
       component: firstComponent
     }
   ]
