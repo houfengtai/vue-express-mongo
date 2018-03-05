@@ -6,7 +6,26 @@ export default {
   data () {
     return {
       message: '这是第一个组件！',
-      articles: []
+      articles: [],
+      orderType:4
+    }
+  },
+  computed: {
+    _getType: function () {
+      if(this.orderType==1){
+        return 'java';
+      }
+      if(this.orderType==2){
+        return 'node.js';
+      }
+      if(this.orderType==3){
+        return 'vue';
+      }
+    }
+  },
+  watch: {
+    'orderType': function(newVal,oldVal){
+      console.log("执行了watch方法");
     }
   },
   mounted () {
@@ -25,5 +44,7 @@ export default {
     reverseMessage () {
       this.message = this.message.split('').reverse().join('')
     }
+
   }
+
 }

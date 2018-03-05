@@ -1,6 +1,6 @@
 <template>
   <div class="two-component">
-    <p>{{entity.title}}&nbsp;&nbsp;&nbsp;{{msg}}</p>
+    <p>{{entity.id}}&nbsp;&nbsp;&nbsp;{{entity.title}}&nbsp;&nbsp;&nbsp;{{msg}}</p>
   </div>
 </template>
 <script>
