@@ -3,7 +3,7 @@
 # 前言
   本文档为在学习vue2.x过程中对vue2.x加深理解所做的笔记，作为备忘所用，
   同时也可以为刚开始接触vue的同学做一定的参考，使之能够快速上手。<br><br>
-  参考：Vue.js官方文档\(https://cn.vuejs.org/v2/guide/index.html\)
+  参考：Vue.js官方文档\(https://cn.vuejs.org/v2/guide/index.html \)
 # 1. 初涉vue
 ## 1.1 vue.js是什么
 > Vue \(读音 /vjuː/，类似于 view\) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。
