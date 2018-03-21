@@ -6,7 +6,8 @@
 <script>
 export default {
   name: 'two-component',
-  props: ['entity', 'msg']
+  props: {entity:Object,
+    msg:String}
 }
 </script>
 <style>
