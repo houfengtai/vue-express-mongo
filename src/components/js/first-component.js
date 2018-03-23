@@ -10,6 +10,15 @@ export default {
       orderType:4
     }
   },
+  directives: {
+    demo: {
+      // 指令的定义
+      inserted: function (el,binding) {
+        //console.log(binding.value.color) // => "white"
+        //console.log(binding.value.text)  // => "hello!"
+      }
+    }
+  },
   computed: {
     _getType: function () {
       if(this.orderType==1){

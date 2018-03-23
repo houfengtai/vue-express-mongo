@@ -3,7 +3,7 @@
     <p>{{message}}</p>
     <ul>
       <li v-for='article in articles'>
-        <two-component v-bind:msg="message" v-bind:entity="article"></two-component>
+        <two-component v-demo="{ color: 'white', text: 'hello!' }" v-bind:msg="message" v-bind:entity="article"></two-component>
       </li>
     </ul>
     <p>{{_getType}}</p>
